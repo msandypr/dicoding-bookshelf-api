@@ -1,15 +1,3 @@
-#Create Data
-{
-    "name": string,
-    "year": number,
-    "author": string,
-    "summary": string,
-    "publisher": string,
-    "pageCount": number,
-    "readPage": number,
-    "reading": boolean
-}
-
 #Struktur Data yang akan disimpan dalam Array
 {
     "id": nanoid,
@@ -28,6 +16,28 @@
 //Jika finished = true (readPage = pageCount)
 //Jika finished = false (readPage < pagecount)
 //Jika finished = undefined (readPage > pageCount)
+
+#Create Data
+{
+    "name": "Sandy Ganteng",
+    "year": 2023,
+    "author": "Muhammad Sandy Putra Riyadi",
+    "summary": "Testing",
+    "publisher": "Dicoding",
+    "pageCount": 100,
+    "readPage": 25,
+    "reading": true
+}
+{
+    "name": "Patah Hati",
+    "year": 2023,
+    "author": "Muhammad Sandy Putra Riyadi",
+    "summary": "Testing",
+    "publisher": "Dicoding",
+    "pageCount": 100,
+    "readPage": 100,
+    "reading": true
+}
 
 #Contoh Data
 {

@@ -23,3 +23,5 @@ npm init --y
 7.Saya membuat fungsi 'addBookHandler' untuk create data buku baru dan mencoba testing fungsinya.
 [Image2](src/img/readme2.png)]
 
+8.Saya membuat fungsi 'getAllBookHandler' dan 'getBookByIdHandler' untuk get/read data buku.
+
