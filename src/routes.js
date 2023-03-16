@@ -2,6 +2,7 @@ const {
     addBookHandler,
     getAllBookHandler,
     getBookByIdHandler,
+    editBookByIdHandler,
 } = require('./handler');
 
 const routes = [
@@ -27,6 +28,11 @@ const routes = [
         path: '/books/{bookId}',
         handler: getBookByIdHandler,
     },
+    {
+        method: 'PUT',
+        path: '/books/{bookId}',
+        handler: editBookByIdHandler,
+      },
 ]
 
 module.exports = routes;
