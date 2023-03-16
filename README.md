@@ -29,3 +29,5 @@ Nodemon ini saya gunakan hanya untuk proses development.
 
 8.Saya membuat fungsi 'getAllBookHandler' dan 'getBookByIdHandler' untuk get/read data buku.
 
+9.Saya membuat fungsi 'editBookByIdHandler' untuk edit/put data buku.
+
