@@ -15,6 +15,7 @@ Nodemon ini saya gunakan hanya untuk proses development.
 3.Setelah itu, saya membuat folder 'src' dan menambahkan file 'server.js', yang berfungsi untuk menjalankan server localhost.
 
 4.Setelah itu, saya menambahkan file 'routes.js' untuk testing saja apakah server kita secara localhost berjalan atau tidak.
+
 ![Readme Image 1](src/img/readme1.png)
 
 5.Setelah itu, saya membuat file 'books.js', berfungsi untuk menyimpan data dalam bentuk array, dan membuat file 'handler.js' yang berfungsi untuk membuat fungsi seperti CRUD.
@@ -23,5 +24,6 @@ Nodemon ini saya gunakan hanya untuk proses development.
 - [Nano ID](https://github.com/ai/nanoid#readme).
 
 7.Saya membuat fungsi 'addBookHandler' untuk create data buku baru dan mencoba testing fungsinya.
+
 ![Readme Image 2](src/img/readme2.png)
 
