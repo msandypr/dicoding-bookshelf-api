@@ -1,0 +1,46 @@
+#Create Data
+{
+    "name": string,
+    "year": number,
+    "author": string,
+    "summary": string,
+    "publisher": string,
+    "pageCount": number,
+    "readPage": number,
+    "reading": boolean
+}
+
+#Struktur Data yang akan disimpan dalam Array
+{
+    "id": nanoid,
+    "name": string,
+    "year": number,
+    "author": string,
+    "summary": string,
+    "publisher": string,
+    "pageCount": number,
+    "readPage": number,
+    "reading": boolean,
+    "finished": boolean
+    "insertedAt": time,
+    "updatedAt": time
+}
+//Jika finished = true (readPage = pageCount)
+//Jika finished = false (readPage < pagecount)
+//Jika finished = undefined (readPage > pageCount)
+
+#Contoh Data
+{
+    "id": "Qbax5Oy7L8WKf74l",
+    "name": "Buku A",
+    "year": 2023,
+    "author": "Sandy Ganteng",
+    "summary": "Lorem ipsum dolor sit amet",
+    "publisher": "Dicoding Indonesia",
+    "pageCount": 100,
+    "readPage": 25,
+    "finished": false,
+    "reading": false,
+    "insertedAt": "2021-03-04T09:11:44.598Z",
+    "updatedAt": "2021-03-04T09:11:44.598Z"
+}

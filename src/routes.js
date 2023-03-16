@@ -1,3 +1,5 @@
+const {addBookHandler} = require('./handler');
+
 const routes = [
     {
         method: 'GET',
@@ -5,6 +7,11 @@ const routes = [
         handler: () => {
             return 'Homepage @msandypr Dicoding Bookshelf API'
         }
+    },
+    {
+        method: 'POST',
+        path: '/books',
+        handler: addBookHandler,
     }
 ]
 
