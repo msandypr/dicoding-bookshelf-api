@@ -19,20 +19,20 @@
 
 #Create Data
 {
-    "name": "Sandy Ganteng",
+    "name": "Atomic Habits",
     "year": 2023,
     "author": "Muhammad Sandy Putra Riyadi",
-    "summary": "Testing",
+    "summary": "Lorem ipsum dolor sit amet",
     "publisher": "Dicoding",
     "pageCount": 100,
     "readPage": 25,
     "reading": true
 }
 {
-    "name": "Patah Hati",
+    "name": "Saya Sedang Patah Hati",
     "year": 2023,
     "author": "Muhammad Sandy Putra Riyadi",
-    "summary": "Testing",
+    "summary": "Lorem ipsum dolor sit amet",
     "publisher": "Dicoding",
     "pageCount": 100,
     "readPage": 100,

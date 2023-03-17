@@ -31,3 +31,74 @@ Nodemon ini saya gunakan hanya untuk proses development.
 
 9.Saya membuat fungsi 'editBookByIdHandler' untuk edit/put data buku.
 
+10.Saya membuat fungsi 'deleteBookByIdHandler' untuk hapus/delete data buku.
+
+## Testing
+1.[MANDATORY]Add Book With Complete Data
+
+![Test Image 1](src/img/test1.png)
+
+2.[MANDATORY]Add Book With Finished Reading
+
+![Test Image 2](src/img/test2.png)
+
+3.[MANDATORY]Add Book Without Name
+
+![Test Image 3](src/img/test3.png)
+
+4.[MANDATORY]Add Book With Page Read More Than Page Count
+
+![Test Image 4](src/img/test4.png)
+
+5.[MANDATORY]Get All Books
+
+![Test Image 5](src/img/test5.png)
+
+6.[MANDATORY]Get Detail Books With Correct Id, Terdapat Error book object should contain correct property and value | AssertionError: expected 'Saya Sedang Patah Hati' to equal 'Buku A'.
+
+![Test Image 6](src/img/test6.png)
+![Test Image 6 Assertion Error](src/img/test6assertionerror.png)
+
+7.[MANDATORY]Get Detail Finished Book, Terdapat Error yang sama dengan Test ke-6, yaitu : book object should contain correct property and value | AssertionError: expected 'Saya Sedang Patah Hati' to equal 'Buku A'.
+
+![Test Image 7](src/img/test7.png)
+![Test Image 7 Assertion Error](src/img/test7assertionerror.png)
+
+8.[MANDATORY]Get Detail Books With Invalid Id
+
+![Test Image 8](src/img/test8.png)
+
+9.[MANDATORY]Update Book With Complete Data
+
+![Test Image 9](src/img/test9.png)
+![Test Image 9 After](src/img/test9after.png)
+
+10.[MANDATORY]Update Book Without Name
+
+![Test Image 10](src/img/test10.png)
+
+11.[MANDATORY]Update Book With Page Read More Than Page Count
+
+![Test Image 11](src/img/test11.png)
+
+12.[MANDATORY]Update Book With Invalid Id
+
+![Test Image 12](src/img/test12.png)
+
+13.[MANDATORY]Delete Book With Correct Id
+
+![Test Image 13](src/img/test13.png)
+
+14.[MANDATORY]Delete Finished Book
+
+![Test Image 14](src/img/test14.png)
+
+14.[MANDATORY]Delete Finished Book
+
+![Test Image 14](src/img/test14.png)
+
+15.[MANDATORY]Delete Book With Invalid Id
+
+![Test Image 15](src/img/test15.png)
+
+

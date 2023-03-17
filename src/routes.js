@@ -3,6 +3,7 @@ const {
     getAllBookHandler,
     getBookByIdHandler,
     editBookByIdHandler,
+    deleteBookByIdHandler,
 } = require('./handler');
 
 const routes = [
@@ -11,7 +12,7 @@ const routes = [
         path: '/',
         handler: () => {
             return 'Homepage @msandypr Dicoding Bookshelf API'
-        }
+        },
     },
     {
         method: 'POST',
@@ -32,7 +33,12 @@ const routes = [
         method: 'PUT',
         path: '/books/{bookId}',
         handler: editBookByIdHandler,
-      },
+    },
+    {
+        method: 'DELETE',
+        path: '/books/{bookId}',
+        handler: deleteBookByIdHandler,
+    },
 ]
 
 module.exports = routes;
